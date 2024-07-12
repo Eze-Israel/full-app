@@ -7,7 +7,7 @@ const Hero = () => {
       <img src={heroImage} alt="hero" className="hero-image" />
       <div className="hero-content">
         <h1>Imposibility is only in the mind of mediocre</h1>
-        <button>Learn more</button>
+        {/* <button>Learn more</button> */}
       </div>
     </div>
   )
