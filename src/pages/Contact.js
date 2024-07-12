@@ -6,11 +6,11 @@ const Contact = () => {
     <div className="Contact" >
       
       <div className="Information">
-        <p className="header"><h2>Contact Information</h2></p>
-        <FaEnvelope/>  <i>Ezeisraeloluoma123@gamail.com</i>
-        <p><FaPhone/>07061033459</p>
-        <p className="website"><FaAddressBook/><h4 className="text">Website@www.EzeIsrael.io</h4></p>
-        <h3 className="header">FOLLOW US ON SOCIAL MEDIA</h3>
+        <p className="header">Contact Information</p>
+        <i><FaEnvelope className="con-icons"/> {" " }  Ezeisraeloluoma123@gamail.com</i>
+        <p><FaPhone className="con-icons"/> {" " }07061033459</p>
+        <p className="website"><FaAddressBook className="con-icons"/> Website@www.EzeIsrael.io {"👋🏻 "}</p>
+        <h3 className="follow">FOLLOW US ON SOCIAL MEDIA</h3>
         <p className="Icons"><a href="https://facebook.com" target="_blank"><FaFacebook /></a>
         <FaInstagram />
         <FaTiktok />
@@ -19,13 +19,13 @@ const Contact = () => {
         <a href="#" target="_blank"> <FaWhatsapp /></a> </p>
       </div>
       <div className="Message-us">
-      <p className="header"><h2>Send Us Message</h2></p>
+      <p className="title">Send Us Message</p>
                <form action="#" method="get">
-                    <input type="text" placeholder="Full name "  className="orange"></input>
+                    <input type="text" placeholder="Full name "  className="text-input"></input>
                     {" "}
                     <input type="email" name="email" className="email" placeholder="Email"  ></input>
                     {" "}
-                    <input type="text" placeholder="Subject"  className="textInput"></input>
+                    <input type="text" placeholder="Subject"  className="Subject"></input>
                     {" "}
                     <textarea name="massage" className="textarea" cols="30" rows="10"  >Message</textarea>
                     {" "}
