@@ -1,0 +1,23 @@
+.Footer {
+    /* border: 2px solid green; */
+    min-height: 10vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0 , 0.2);
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 600px) {
+    .Footer {
+        padding: 50px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}

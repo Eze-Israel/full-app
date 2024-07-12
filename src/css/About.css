@@ -1,0 +1,53 @@
+.About{
+    display: flex;
+    gap: 20px;
+    padding: 50px 50px;
+    background-color: rgb(243, 238, 238);
+    width: 100%;
+    
+}
+.Image{
+    width: 50%;
+    object-fit: cover;
+}
+
+.content{
+    width: 50%;
+}
+
+.transit{
+    cursor: pointer;
+    transition: transform 2s linear;
+ }
+
+ .transit:hover{
+ transform:scale(0,2) ;
+ /* width: fit-content; */
+ 
+ }
+
+@media screen and (max-width: 600px) {
+
+    .About{
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        
+
+    }
+
+    .Image{
+        width: 100%;
+        object-fit: cover;
+        order: 1;
+        
+    }
+
+    .content{
+        width: fit-content;
+        order: 0;
+        
+    }
+}

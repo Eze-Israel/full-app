@@ -1,0 +1,92 @@
+.Contact{
+    display: flex;
+    margin-bottom: 12px;
+    padding: 0 100px;
+    margin-top: 12px;
+    gap: 30px;
+    /* background-color: rgb(249, 246, 241); */
+    
+   
+}
+
+.Information{
+    padding:  10px ;
+    width: 50%;
+    box-shadow:1px 1px 2px 2px rgb(141, 160, 151); 
+   
+
+}
+.Message-us{
+    padding:  10px;
+    width: 50%;
+    box-shadow:1px 1px 2px 2px rgb(138, 154, 146); 
+    
+}
+.header{
+    text-align: center;
+}
+.orange{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.email{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.textInput{
+    width: 100%;
+    margin-top: 20px;
+    min-height: 30px;
+}
+
+.textarea{
+margin-top: 20px;
+width: 70%;
+}
+
+.send{
+padding: 12px;
+border-radius: 20px;
+background-color: #A05;
+color: white;
+}
+
+.website{
+    color: rgb(239, 183, 18);
+    margin-bottom: 20px;
+}
+.text{
+    color: black;
+}
+.Icons{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .Contact{
+        padding: 0 40px;
+        flex-direction: column;
+    }
+    .Information{
+        padding:  10px ;
+        width: 100%;
+        box-shadow:1px 1px 2px 2px rgb(141, 160, 151); 
+    
+    }
+    .Message-us{
+        padding:  10px;
+        width: 100%;
+        box-shadow:1px 1px 2px 2px rgb(138, 154, 146); 
+    }
+
+
+}
