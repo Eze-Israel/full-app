@@ -11,11 +11,20 @@ const Header = () => {
   const handleMobileChange = () => {
     setBars(!bars)
     setMobileState(!mobileState)
+    
   }
+  const handlelogoname = () => {
+    setBars(bars)
+    
+  }
+  
+  
 
+ 
   return (
     <div className="Header">
-      <img src={logoImage} alt="logo" className="logo" />
+      {/* <img src={logoImage} alt="logo" className="logo"  /> */}
+      <span><Link to="/" className="name" onClick={handlelogoname}> Eze Israel O</Link></span> 
       <div className="mobile-icon" onClick={handleMobileChange}>
         {bars ? <FaBars /> : <FaTimes />}
       </div>

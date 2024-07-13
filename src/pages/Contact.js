@@ -11,12 +11,13 @@ const Contact = () => {
         <p><FaPhone className="con-icons"/> {" " }07061033459</p>
         <p className="website"><FaAddressBook className="con-icons"/> Website@www.EzeIsrael.io {"👋🏻 "}</p>
         <h3 className="follow">FOLLOW US ON SOCIAL MEDIA</h3>
-        <p className="Icons"><a href="https://facebook.com" target="_blank"><FaFacebook /></a>
-        <FaInstagram />
-        <FaTiktok />
-        <FaLocationArrow />
-        <FaGithub />
-        <a href="#" target="_blank"> <FaWhatsapp /></a> </p>
+        <p className="Icons">
+        <a href="https://facebook.com" target="_blank"><FaFacebook className="icon-setup" /></a>
+        <FaInstagram className="icon-setup"/>
+        <FaTiktok className="icon-setup" />
+        <FaLocationArrow className="icon-setup"/>
+        <FaGithub className="icon-setup" />
+        <a href="https://wa.me/07061033459" target="_blank"> <FaWhatsapp   className="icon-setup"/></a> </p>
       </div>
       <div className="Message-us">
       <p className="title">Send Us Message</p>
